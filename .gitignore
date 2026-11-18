@@ -1,0 +1,42 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Raw downloaded datasets
+data/raw/
+data/downloads/
+
+# Local model checkpoints
+*.pkl
+*.joblib
+*.keras
+*.h5
+dashboard/app_backup.py
+data/cleaned/metadata_checkpoint.json
